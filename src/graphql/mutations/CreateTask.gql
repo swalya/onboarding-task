@@ -1,0 +1,6 @@
+mutation CreateTask($taskName: String!, $columnId: String!) {
+  createTask(taskName: $taskName, columnId: $columnId) {
+    name
+    id
+  }
+}

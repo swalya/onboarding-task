@@ -1,0 +1,7 @@
+mutation MoveTask($newColumnId: String!, $taskId: String!) {
+  moveTask(newColumnId: $newColumnId, taskId: $taskId) {
+    name
+    id
+  }
+}
+

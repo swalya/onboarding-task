@@ -1,0 +1,3 @@
+mutation DeleteColumn($columnId: String!) {
+  deleteColumn(columnId: $columnId)
+}

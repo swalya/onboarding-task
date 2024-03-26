@@ -1,0 +1,6 @@
+mutation CreateColumn($columnName: String!) {
+  createColumn(columnName: $columnName) {
+    name
+    id
+  }
+}

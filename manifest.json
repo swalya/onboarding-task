@@ -1,0 +1,9 @@
+{
+    "name": "Kanboard",
+    "short_name": "Kanboard",
+    "theme_color": "#4a26fd",
+    "background_color": "#f5fdfc",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }

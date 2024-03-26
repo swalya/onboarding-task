@@ -1,0 +1,6 @@
+mutation RenameColumn($newName: String!, $columnId: String!) {
+  renameColumn(newName: $newName, columnId: $columnId) {
+    name
+    id
+  }
+}
